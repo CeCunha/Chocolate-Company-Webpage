@@ -128,6 +128,7 @@ h3{
 	text-align: center;
 	width: 50%;
 	line-height: 10px;
+	padding-bottom: 50px;
 }
 
 .details-value{
@@ -171,6 +172,7 @@ button{
 	padding-right: 15px;
 	font-size: large;
 	align-items: center;
+	background-color: #46230000;
 }
 
 button:hover{
@@ -213,6 +215,90 @@ button:hover{
 	  background-position: 100%;
 	}
   }
+
+
+
+
+
+.history-picture-container{
+	position: relative;
+	
+	
+  }
+
+.history-picture-container img{
+	width: 100%;
+}
+
+h4{
+	font-family:'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 3vw;
+	margin: 10px;
+	color: rgb(255, 179, 86);
+
+
+
+}
+.first-text-history {
+	width: 55%;
+	left: 5%;
+	top: 25%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.183);
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1.5vw;
+  }
+
+  .second-text-history {
+	width: 55%;
+	right: 5%;
+	top: 25%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.183);
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1.5vw;
+  }
+
+  .third-text-history {
+	width: 30%;
+	left: 4%;
+	top: 15%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.183);
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1.5vw;
+  }
+
+  .fourth-text-history{
+	text-align: center;
+	width: 30%;
+	right: 4%;
+	top: 17%;
+	position: absolute;
+	color: rgb(255, 179, 86);
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1.8vw;
+  }
+
+  p span{
+	color: rgb(255, 207, 149);
+  }
+
+  
+
+
+
 
 
 
