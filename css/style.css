@@ -67,35 +67,24 @@ h1 {
 
 .introduction-text {
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
-	font-size: 2vw;
+	font-size: 1.4vw;
 	text-align: center;
-	width: 80%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 70px;
 	color: rgb(255, 207, 149);
 }
 
-.produtc {
-	width: 100%;
-	padding-bottom: -10%;
-}
-
-.product-container {
+.products-images {
 	display: flex;
-}
-
-.product-left,
-.product-right {
-	width: 50%;
 }
 
 .description-container {
 	display: flex;
 }
 
-.description-left,
-.description-right {
+.product-description {
 	background-color: rgba(255, 228, 196, 0.237);
 	width: 50%;
 }
@@ -109,29 +98,45 @@ h2 {
 	align-items: center;
 }
 
-h3 {
-	text-align: center;
-	color: #462300;
-	font-size: 2vw;
-	text-shadow: 5px 5px 5px #46230020;
+.featured-products {
+	background-color: rgba(255, 228, 196, 0.237);
 }
 
-.product-description {
-	font-family: 'Sofia Sans Semi Condensed', sans-serif;
-	text-align: justify;
-	font-size: 1.2vw;
-	width: 70%;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-.details-container {
+.product-list {
 	display: flex;
 }
 
-.details-left,
-.details-right {
-	background-color: rgba(255, 228, 196, 0.237);
+.product-image {
+	width: 100%;
+	height: 100%;
+}
+
+.product {
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	text-align: justify;
+	max-height: 700px;
+}
+
+.product-name {
+	font-family: 'Alex Brush', cursive;
+	color: rgb(140, 65, 0);
+	font-size: 3vw;
+}
+
+.product > h3 {
+	text-align: center;
+	color: #462300;
+	font-size: 1vw;
+	text-shadow: 5px 5px 5px #46230020;
+}
+
+.product > p {
+	width: 50%;
+	min-height: 140px;
+	margin: auto;
+}
+
+.product-details {
 	margin: auto;
 	text-align: center;
 	width: 50%;
@@ -140,20 +145,48 @@ h3 {
 }
 
 .details-value {
-	font-size: 2vw;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1vw;
+	font-weight: bold;
 	color: #462300;
 }
 
 .details-icon {
-	width: 40%;
-	margin-bottom: 20px;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .details-icon:hover {
 	filter: grayscale(100%);
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
+}
+
+/* If screen is in higher resolution it makes the products closer together */
+@media screen and (min-width: 1920px) {
+	.product-left {
+		margin-left: 30em;
+	}
+
+	.product-right {
+		margin-right: 30em;
+	}
+}
+
+/* If screen is small it makes the products display in a row */
+@media(max-width: 992px) {
+  .product-list {
+    flex-direction: column;
+  }
+
+	.product-name {
+		font-size: 8vw;
+	}
+
+	.product > h3 {
+		font-size: 3vw;
+	}
 }
 
 @keyframes shake {
@@ -202,30 +235,11 @@ h3 {
 	}
 }
 
-button {
-	border-color: #462300;
-	font-family: 'Sofia Sans Semi Condensed', sans-serif;
-	color: #462300;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: large;
-	align-items: center;
-	background-color: #46230000;
-}
-
-button:hover {
-	color: white;
-	border: #a4672b;
-	background-color: #c0874e;
-}
-
 .container {
 	width: 100%;
 	position: relative;
 	text-align: center;
-	font: 900 5vw 'Alex Brush', cursive;
+	font: 900 3vw 'Alex Brush', cursive;
 	background: rgb(255, 179, 86);
 	letter-spacing: 1px;
 	-webkit-background-clip: text;
@@ -501,4 +515,22 @@ footer p {
 
 .award-logo:hover {
 	filter: opacity(100%);
+}
+
+.btn {
+	border-color: #462300;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	color: #462300;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: large;
+	align-items: center;
+	background-color: #46230000;
+}
+
+.btn:hover {
+	color: white;
+	background-color: #c0874e;
 }
