@@ -99,7 +99,8 @@ h2{
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 2vw;
 	color: #462300;
-	margin-left: 42%;	
+	margin-left: 42%;
+	align-items: center;	
 }
 
 h3{
@@ -295,6 +296,83 @@ h4{
 	color: rgb(255, 207, 149);
   }
 
+
+  .testeimagem{
+	width: 100%;
+	position: relative;
+  }
+  .timeline{
+	padding-top: 9%;
+}
+
+  .timeline-container{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: url(/images/timeline-background.png);
+	background-position: center; /* Center the image */
+  	background-size: cover;
+
+  }
+
+  .timeline-icons{
+	display: flex;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+
+  }
+
+  .timeline-icon1, .timeline-icon3, .timeline-icon5{
+	margin-top: 5.5%;
+	
+  }
+  .timeline-icon2, .timeline-icon4{
+	margin-top: .8%;
+  }
+
+
+  .timeline-img1, .timeline-img2, .timeline-img3, .timeline-img4, .timeline-img5{
+	width: 30%;	
+  }
+
+ .timeline-img1:hover, .timeline-img2:hover, .timeline-img3:hover, .timeline-img4:hover, .timeline-img5:hover{
+	filter: saturate(10);
+ }
+
+  .timeline-years{
+	font-size: 2.5vw;
+	font-family:'Sofia Sans Semi Condensed', sans-serif;
+	color: #a4672b;
+  }
+
+  .timeline-content{
+	font-family:'Sofia Sans Semi Condensed', sans-serif;
+	color: #462300;
+	font-size: 1.2vw;
+  }
+
+
+
+ h5{ 
+  font-family:'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 3vw;
+	margin: 10px;
+	color: #462300;
+	position: absolute;
+	left: 40%;
+	padding-top: 2%;
+	
+}
+
+h5 span{
+	font-family: 'Alex Brush', cursive;
+
+}
+
+
+	
+  
   
 
 
