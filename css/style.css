@@ -1,3 +1,7 @@
+html{
+	padding-bottom: 0;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -370,6 +374,85 @@ h5 span{
 
 }
 
+
+.footer-container{
+	display: flex;
+
+}
+.footer-left{
+	width: 50%;
+	
+	
+}
+.footer-right{
+	width: 50%;
+
+	padding-bottom: 10px;
+}
+
+.form-container p{
+	font-family:'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+
+.form-box{
+	width: 60%;
+	line-height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 16%;
+	font-size: 1vw;
+	border: none;
+	padding-left: 2%;
+}
+
+	input[type=submit]{
+		color: grey;
+		background-color: white;
+		border: none;
+		line-height: 50px;
+		margin-top: 10px;
+		font-size: 1vw;
+	
+	}
+
+	footer{
+		background-image: radial-gradient(circle, #A4672B,#512406);
+		padding-top: 5%;
+	}
+
+	footer p{
+		font-family:'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1vw;
+	text-align: center;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 0;
+	padding-bottom: 1%;
+
+	}
+
+	.logo-footer{
+		width: 20%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		margin-left: 6%;
+	}
+
+	.network-icons1{
+		width: 5%;
+		margin: 1.5%;
+		margin-left: 30%;
+		
+	}
+
+	.network-icons{
+		width: 5%;
+		margin: 1.5%;
+		
+	}
 
 	
   
