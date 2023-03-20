@@ -340,7 +340,7 @@ p span {
 .timeline-container {
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background-image: url(images/timeline-background.png);
+	background-image: url(/images/timeline-background.png);
 	background-position: center;
 	/* Center the image */
 	background-size: cover;
