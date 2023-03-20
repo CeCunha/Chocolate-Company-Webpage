@@ -233,14 +233,19 @@ button:hover {
 }
 
 .container:after {
-	content: "Every drop ... is a  Waterfall of flavour!";
+	content: 'Every drop ... is a  Waterfall of flavour!';
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.8) 50%,
-			rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(
+		45deg,
+		rgba(255, 255, 255, 0) 45%,
+		rgba(255, 255, 255, 0.8) 50%,
+		rgba(255, 255, 255, 0) 55%,
+		rgba(255, 255, 255, 0) 100%
+	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-size: 200%;
@@ -361,7 +366,7 @@ p span {
 
 .timeline-icon2,
 .timeline-icon4 {
-	margin-top: .8%;
+	margin-top: 0.8%;
 }
 
 .timeline-img1,
@@ -437,7 +442,7 @@ h5 span {
 	padding-left: 2%;
 }
 
-input[type=submit] {
+input[type='submit'] {
 	color: grey;
 	background-color: white;
 	border: none;
@@ -448,7 +453,7 @@ input[type=submit] {
 }
 
 footer {
-	background-image: radial-gradient(circle, #A4672B, #512406);
+	background-image: radial-gradient(circle, #a4672b, #512406);
 	padding-top: 5%;
 }
 
