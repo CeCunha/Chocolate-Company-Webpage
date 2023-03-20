@@ -1,4 +1,4 @@
-html{
+html {
 	padding-bottom: 0;
 }
 
@@ -8,64 +8,64 @@ body {
 	padding: 0;
 }
 
-li{
+li {
 	display: inline;
 	margin: 10px;
 }
 
-a{
-	text-decoration: none;	
+a {
+	text-decoration: none;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1.3vw;
 	color: rgb(255, 207, 149);
 	text-shadow: 5px 5px 5px #462300;
 }
 
-.nav-menu{
+.nav-menu {
 	position: absolute;
 	top: 3%;
 	width: fit-content;
 	display: inline;
 }
 
-video{
+video {
 	width: 100%;
 	height: 100%;
 }
 
-.logo{
+.logo {
 	position: absolute;
 	width: 10%;
 	margin-left: 45%;
 	margin-top: 2%;
 }
 
-.slogan{
+.slogan {
 	background: linear-gradient(to bottom, #542f12 32%, #a4672b 100%);
 	padding-bottom: 50px;
 }
 
-.separator-line{
+.separator-line {
 	margin-top: -0.4%;
-  	width: 100%;
+	width: 100%;
 	margin-bottom: 60px;
 }
 
-main{
+main {
 	margin-top: -2%;
 }
 
-h1{
+h1 {
 	font-family: 'Alex Brush', cursive;
 	font-size: 5vw;
-	font-weight:lighter;
+	font-weight: lighter;
 	text-align: center;
 	color: #c0874e;
 	letter-spacing: 1px;
 	text-shadow: 5px 5px 3px #462300;
 }
 
-.introduction-text{
+.introduction-text {
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 2vw;
 	text-align: center;
@@ -76,58 +76,61 @@ h1{
 	color: rgb(255, 207, 149);
 }
 
-.produtc{
+.produtc {
 	width: 100%;
 	padding-bottom: -10%;
 }
 
-.product-container{
+.product-container {
 	display: flex;
 }
 
-.product-left, .product-right{
-	width: 50%;	
+.product-left,
+.product-right {
+	width: 50%;
 }
-	
-.description-container{
+
+.description-container {
 	display: flex;
 }
 
-.description-left, .description-right{
+.description-left,
+.description-right {
 	background-color: rgba(255, 228, 196, 0.237);
 	width: 50%;
 }
 
-h2{
+h2 {
 	position: absolute;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 2vw;
 	color: #462300;
 	margin-left: 42%;
-	align-items: center;	
+	align-items: center;
 }
 
-h3{
+h3 {
 	text-align: center;
 	color: #462300;
 	font-size: 2vw;
 	text-shadow: 5px 5px 5px #46230020;
 }
 
-.product-description{
+.product-description {
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
-	text-align:justify;
+	text-align: justify;
 	font-size: 1.2vw;
 	width: 70%;
 	margin: auto;
 	margin-bottom: 20px;
 }
 
-.details-container{
+.details-container {
 	display: flex;
 }
 
-.details-left, .details-right{
+.details-left,
+.details-right {
 	background-color: rgba(255, 228, 196, 0.237);
 	margin: auto;
 	text-align: center;
@@ -136,38 +139,70 @@ h3{
 	padding-bottom: 50px;
 }
 
-.details-value{
+.details-value {
 	font-size: 2vw;
-	font-family:'Sofia Sans Semi Condensed', sans-serif;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	color: #462300;
 }
 
-.details-icon{
+.details-icon {
 	width: 40%;
 	margin-bottom: 20px;
 }
 
-.details-icon:hover{
-	filter:grayscale(100%);
-	animation: shake 0.5s ;
+.details-icon:hover {
+	filter: grayscale(100%);
+	animation: shake 0.5s;
 	animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
 
-button{
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+button {
 	border-color: #462300;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	color: #462300;
@@ -180,7 +215,7 @@ button{
 	background-color: #46230000;
 }
 
-button:hover{
+button:hover {
 	color: white;
 	border: #a4672b;
 	background-color: #c0874e;
@@ -191,59 +226,52 @@ button:hover{
 	position: relative;
 	text-align: center;
 	font: 900 5vw 'Alex Brush', cursive;
-	background:rgb(255, 179, 86);
+	background: rgb(255, 179, 86);
 	letter-spacing: 1px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  }
-  
-  .container:after {
+}
+
+.container:after {
 	content: "Every drop ... is a  Waterfall of flavour!";
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(45deg, rgba(255,255,255,0) 45%, rgba(255,255,255,0.8) 50%,
-	  rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.8) 50%,
+			rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-size: 200%;
 	animation: shine 8s infinite;
-  }
-  
-  @keyframes shine{
+}
+
+@keyframes shine {
 	0% {
-	  background-position: -100%;
+		background-position: -100%;
 	}
+
 	100% {
-	  background-position: 100%;
+		background-position: 100%;
 	}
-  }
+}
 
-
-
-
-
-.history-picture-container{
+.history-picture-container {
 	position: relative;
-	
-	
-  }
+}
 
-.history-picture-container img{
+.history-picture-container img {
 	width: 100%;
 }
 
-h4{
-	font-family:'Sofia Sans Semi Condensed', sans-serif;
+h4 {
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 3vw;
 	margin: 10px;
 	color: rgb(255, 179, 86);
-
-
-
 }
+
 .first-text-history {
 	width: 55%;
 	left: 5%;
@@ -255,9 +283,9 @@ h4{
 	padding-right: 20px;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1.5vw;
-  }
+}
 
-  .second-text-history {
+.second-text-history {
 	width: 55%;
 	right: 5%;
 	top: 25%;
@@ -268,9 +296,9 @@ h4{
 	padding-right: 20px;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1.5vw;
-  }
+}
 
-  .third-text-history {
+.third-text-history {
 	width: 30%;
 	left: 4%;
 	top: 15%;
@@ -281,9 +309,9 @@ h4{
 	padding-right: 20px;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1.5vw;
-  }
+}
 
-  .fourth-text-history{
+.fourth-text-history {
 	text-align: center;
 	width: 30%;
 	right: 4%;
@@ -294,183 +322,183 @@ h4{
 	padding-right: 20px;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1.8vw;
-  }
+}
 
-  p span{
+p span {
 	color: rgb(255, 207, 149);
-  }
+}
 
-
-  .testeimagem{
+.testeimagem {
 	width: 100%;
 	position: relative;
-  }
-  .timeline{
+}
+
+.timeline {
 	padding-top: 9%;
 }
 
-  .timeline-container{
+.timeline-container {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background-image: url(/images/timeline-background.png);
-	background-position: center; /* Center the image */
-  	background-size: cover;
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+}
 
-  }
-
-  .timeline-icons{
+.timeline-icons {
 	display: flex;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
 
-
-  }
-
-  .timeline-icon1, .timeline-icon3, .timeline-icon5{
+.timeline-icon1,
+.timeline-icon3,
+.timeline-icon5 {
 	margin-top: 5.5%;
-	
-  }
-  .timeline-icon2, .timeline-icon4{
+}
+
+.timeline-icon2,
+.timeline-icon4 {
 	margin-top: .8%;
-  }
+}
 
+.timeline-img1,
+.timeline-img2,
+.timeline-img3,
+.timeline-img4,
+.timeline-img5 {
+	width: 30%;
+}
 
-  .timeline-img1, .timeline-img2, .timeline-img3, .timeline-img4, .timeline-img5{
-	width: 30%;	
-  }
-
- .timeline-img1:hover, .timeline-img2:hover, .timeline-img3:hover, .timeline-img4:hover, .timeline-img5:hover{
+.timeline-img1:hover,
+.timeline-img2:hover,
+.timeline-img3:hover,
+.timeline-img4:hover,
+.timeline-img5:hover {
 	filter: saturate(10);
- }
+}
 
-  .timeline-years{
+.timeline-years {
 	font-size: 2.5vw;
-	font-family:'Sofia Sans Semi Condensed', sans-serif;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	color: #a4672b;
-  }
+}
 
-  .timeline-content{
-	font-family:'Sofia Sans Semi Condensed', sans-serif;
+.timeline-content {
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	color: #462300;
 	font-size: 1.2vw;
-  }
+}
 
-
-
- h5{ 
-  font-family:'Sofia Sans Semi Condensed', sans-serif;
+h5 {
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 3vw;
 	margin: 10px;
 	color: #462300;
 	position: absolute;
 	left: 40%;
 	padding-top: 2%;
-	
 }
 
-h5 span{
+h5 span {
 	font-family: 'Alex Brush', cursive;
-
 }
 
-
-.footer-container{
+.footer-container {
 	display: flex;
-
 }
-.footer-left{
-	width: 50%;
-	
-	
-}
-.footer-right{
-	width: 50%;
 
+.footer-left {
+	width: 50%;
+	display: flex;
+}
+
+.footer-right {
+	width: 50%;
 	padding-bottom: 10px;
 }
 
-.form-container p{
-	font-family:'Sofia Sans Semi Condensed', sans-serif;
+.form-container p {
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1.5vw;
 	text-align: center;
 }
 
-
-.form-box{
+.form-box {
 	width: 60%;
 	line-height: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 16%;
+	margin-left: 14%;
 	font-size: 1vw;
 	border: none;
 	padding-left: 2%;
 }
 
-	input[type=submit]{
-		color: grey;
-		background-color: white;
-		border: none;
-		line-height: 50px;
-		margin-top: 10px;
-		font-size: 1vw;
-	
-	}
+input[type=submit] {
+	color: grey;
+	background-color: white;
+	border: none;
+	line-height: 50px;
+	margin-top: 10px;
+	font-size: 1vw;
+	width: 10%;
+}
 
-	footer{
-		background-image: radial-gradient(circle, #A4672B,#512406);
-		padding-top: 5%;
-	}
+footer {
+	background-image: radial-gradient(circle, #A4672B, #512406);
+	padding-top: 5%;
+}
 
-	footer p{
-		font-family:'Sofia Sans Semi Condensed', sans-serif;
+footer p {
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 1vw;
 	text-align: center;
 	color: white;
 	margin-top: 2%;
 	margin-bottom: 0;
 	padding-bottom: 1%;
+}
 
-	}
+.logo-footer {
+	width: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 6%;
+}
 
-	.logo-footer{
-		width: 20%;
-		padding-top: 2%;
-		padding-bottom: 2%;
-		margin-left: 6%;
-	}
+.network-icons1 {
+	width: 5%;
+	margin: 1.5%;
+	margin-left: 30%;
+}
 
-	.network-icons1{
-		width: 5%;
-		margin: 1.5%;
-		margin-left: 30%;
-		
-	}
+.network-icons {
+	width: 5%;
+	margin: 1.5%;
+}
 
-	.network-icons{
-		width: 5%;
-		margin: 1.5%;
-		
-	}
+.footer-nav-list {
+	margin-left: 5%;
+}
 
-	
-  
-  
+.footer-nav-list li a {
+	list-style-type: none;
+	display: list-item;
+	text-decoration: none;
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	font-size: 1.3vw;
+	color: rgb(255, 207, 149);
+}
 
+.award-logo {
+	width: 20%;
+	margin-left: 15%;
+	filter: opacity(15%);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.award-logo:hover {
+	filter: opacity(100%);
+}
