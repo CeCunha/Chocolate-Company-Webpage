@@ -29,16 +29,22 @@
                 <source src="video/drop-video.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="nav-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#products">PRODUCTS</a></li>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#contact">CONTACT US</a></li>
-                </ul>
-            </nav>
+
+        <nav id="nav-menu" class="nav-menu">
+            <ul id="main-menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <!-- create a button icon to show menu -->
+        <div id="menu-toggle">
+            <i class="fa fa-bars"></i>
         </div>
+
+
     </header>
     <main>
         <section class="slogan">
@@ -217,6 +223,39 @@
         </div>
         <p>&copy; Chocolate Company 2023. Fictional page for academic purpose. All rights reserved.</p>
     </footer>
+
+
+
+    <script>
+
+        // to open and close the menu on mobile
+        function mobileMenu() {
+            if (document.getElementById("nav-menu").style.display == "inline") {
+                document.getElementById("nav-menu").style.display = "none";
+            } else {
+                document.getElementById("nav-menu").style.display = "inline";
+            }
+        }
+
+        // to close the menu when clicking outside of it
+        document.getElementById('menu-toggle').addEventListener('click', mobileMenu);
+
+        // to reset the menu when resizing the window
+        function resetMenu() {
+            if (window.innerWidth >= 480) {
+                document.getElementById("nav-menu").style.display = "inline";
+            } else {
+                document.getElementById("nav-menu").style.display = "none";
+            }
+        }
+
+        window.addEventListener('resize', resetMenu);
+
+
+
+    </script>
+
+
 </body>
 
 </html>
