@@ -1,187 +1,276 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Drop Chocolate Company</title>
-	<link rel="stylesheet" type="text/css" href=css/style.css>
+    <title>Drop Chocolate Company</title>
+    <link rel="stylesheet" type="text/css" href=css/style.css>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 </head>
+
 <body>
-	<header>
+    <header>
         <img class="logo" src="images/logo.png" alt="logo image">
         <div class="video-container">
             <video width="320" height="240" autoplay muted loop>
                 <source src="video/drop-video.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="nav-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#products">PRODUCTS</a></li>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#contact">CONTACT US</a></li>
-                </ul>
-            </nav>
+
+        <nav id="nav-menu" class="nav-menu">
+            <ul id="main-menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <!-- create a button icon to show menu -->
+        <div id="menu-toggle">
+            <i class="fa fa-bars"></i>
         </div>
-	</header>
-	<main>
-		<section class="slogan">
+
+
+    </header>
+    <main>
+        <section class="slogan">
             <img class="separator-line" src="images/drop-line.png" alt="separator line with chocolate drop">
             <div class="container">
-                Every drop ... is a  Waterfall of flavour!
+                Every drop ... is a Waterfall of flavour!
             </div>
-			<p class="introduction-text">Introducing our exclusive chocolate, made from the finest ingredients sourced from around the world. Our chocolates are crafted with a passion for quality and a commitment to creating unique flavors that will leave your taste buds wanting more. <br><br> We believe that chocolate is more than just a treat - it's an experience, and we aim to deliver that experience in <i>every drop.</i></p>
-		</section>
-        <section>
-            <div class="featured-products">
-                <div class="products-images">
-                    <h2 id="products">Featured Products</h2>
-                    <div class="product-image-left">
-                        <img class="product-image" src="images/product1.png" alt="Product 1">
-                    </div>
-                    <div class="product-image-right">
-                        <img class="product-image" src="images/product2.png" alt="Product 2">
-                    </div>
-                </div>
-                <div class="product-list">
-                    <div class="product product-left">
-                        <h3><span class="product-name">Sweet Drop</span><i>&nbsp;MILK</i>&nbsp;CHOCOLATE</h3>
-                        <p>Indulge in the smooth and creamy goodness of our milk chocolate. Made with the finest ingredients, our milk chocolate is a delicious treat for any chocolate lover. With its rich and velvety texture, this chocolate is perfect for satisfying your sweet tooth. Whether enjoyed on its own or used in baking and cooking, our milk chocolate is sure to please.</p>
-                        <div class="product-details">
-                            <p class="details-value">$20.90</p>
-                            <p>⭐️⭐️⭐️⭐️⭐️</p>
-                            <p class="details-size"><small>250g</small></p>
-                            <img class="details-icon" src="images/allergy-icons.png" alt="peanut icon">
-                            <button class="btn">ADD TO CART <i class="material-icons">add_shopping_cart</i></button>
-                        </div>
-                    </div>
-                    <div class="product product-right">
-                        <h3><span class="product-name">Power Drop</span><i>&nbsp;DARK</i>&nbsp;CHOCOLATE</h3>
-                        <p>Experience the deep and intense flavor of our dark chocolate. Crafted with premium cocoa beans, our dark chocolate is a luxurious indulgence that is both sophisticated and satisfying. With its smooth and silky texture, this chocolate is perfect for pairing with your favorite wine or coffee.</p>
-                        <div class="product-details">
-                            <p class="details-value">$22.90</p>
-                            <p>⭐️⭐️⭐️⭐️⭐️</p>
-                            <p class="details-size"><small>250g</small></p>
-                            <img class="details-icon" src="images/allergy-icons.png" alt="peanut icon">
-                            <button class="btn">ADD TO CART <i class="material-icons">add_shopping_cart</i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</section>
-        <section id="about">
-            <h5>OUR<span> Sweet </span>HISTORY</h5>
-            <div class="timeline">
-                <div class="timeline-container">
-                    <div class="timeline-icons">
-                        <div class="timeline-icon1">
-                            <p class="timeline-years">1990</p>
-                            <a href="#history1">
-                            <img class="timeline-img1" src="images/t-icon1.png" alt="timeline-icon">
-                            </a>
-                            <p class="timeline-content">Mr. Thomas founded <br>The Chocolate Drop Company</p>
-                        </div>
-                        <div class="timeline-icon2">
-                            <p class="timeline-content">New stores and <br>
-                            online sales</p>
-                            <a href="#history1">
-                            <img class="timeline-img2" src="images/t-icon2.png" alt="timeline-icon">
-                            </a>
-                            <p class="timeline-years">2000</p>
-                        </div>
-                        <div class=timeline-icon3>
-                            <p class="timeline-years">2010</p>
-                            <a href="#history2">
-                            <img class="timeline-img3" src="images/t-icon1.png" alt="timeline-icon">
-                            </a>
-                            <p class="timeline-content">New flavors and<br> the creation of the vegan line</p>
-                        </div>
-                        <div class=timeline-icon4>
-                            <p class="timeline-content">Socio-environmental expansion<br> and new partners</p>
-                            <a href="#history2">
-                            <img class="timeline-img4" src="images/t-icon2.png" alt="timeline-icon">
-                            </a>
-                            <p class="timeline-years">2020</p>
-                        </div>
-                        <div class=timeline-icon5>
-                            <p class="timeline-years">2022</p>
-                            <a href="#history3">
-                            <img class="timeline-img5" src="images/t-icon1.png" alt="timeline-icon">
-                            </a>
-                            <p class="timeline-content">Pandemic challenges<br> and e-commerce</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="introduction-text">Introducing our exclusive chocolate, made from the finest ingredients
+                sourced
+                from around the world. Our chocolates are crafted with a passion for quality and a commitment to
+                creating unique flavors that will leave your taste buds wanting more. <br><br> We believe that
+                chocolate
+                is more than just a treat - it's an experience, and we aim to deliver that experience in <i>every
+                    drop.</i></p>
         </section>
-        <section>
+
+
+        <section class="featured-products">
+
+            <h2 id="products">Featured Products</h2>
+            <div class="products-container">
+                <!-- first product -->
+                <div class="product-1">
+                    <img class="product" src="images/product1.png" alt="Product 1">
+                    <div class="description-container">
+                        <div class="description">
+                            <h3><span>Sweet
+                                    Drop</span><i>&nbsp;MILK</i>&nbsp;CHOCOLATE</h3>
+                            <p class="product-description">Indulge in the smooth and creamy goodness of our milk
+                                chocolate. Made
+                                with the finest ingredients, our milk chocolate is a delicious treat for any
+                                chocolate
+                                lover.
+                                With its rich and velvety texture, this chocolate is perfect for satisfying your
+                                sweet
+                                tooth.
+                                Whether enjoyed on its own or used in baking and cooking, our milk chocolate is sure
+                                to
+                                please.
+                            </p>
+                        </div>
+                        <div class="details">
+                            <p class="details-value"><b>$ 20.90</b></p>
+                            <p>⭐️⭐️⭐️⭐️⭐️</p>
+                            <p class="details-size"><small>250g</small></p>
+                            <img class="details-icon" src="images/allergy-icons.png" alt="peanut icon"><br>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second product -->
+                <div class="product-2">
+                    <img class="product" src="images/product2.png" alt="Product 2">
+                    <div class="description-container">
+                        <div class="description">
+                            <h3><span>Dark
+                                    Dream</span><i>&nbsp;DARK</i>&nbsp;CHOCOLATE</h3>
+                            <p class="product-description">Experience the rich and intense flavor of our dark
+                                chocolate.
+                                Made
+                                with 70% cacao, our dark chocolate is the perfect choice for those who crave a deep
+                                and
+                                complex
+                                taste. With its smooth texture and subtle notes of vanilla, this chocolate is
+                                perfect
+                                for
+                                pairing with wine or enjoying on its own. Our dark chocolate is also a great
+                                ingredient
+                                for
+                                baking and cooking.</p>
+                        </div>
+                        <div class="details">
+                            <p class="details-value"><b>$ 24.90</b></p>
+                            <p>⭐️⭐️⭐️⭐️</p>
+                            <p class="details-size"><small>200g</small></p>
+                            <img class="details-icon" src="images/allergy-icons.png" alt="gluten-free icon"><br>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="about">
+                <h5>OUR<span> Sweet </span>HISTORY</h5>
+                <div class="timeline">
+                    <div class="timeline-container">
+                        <div class="timeline-icons">
+                            <div class="timeline-icon1">
+                                <p class="timeline-years">1990</p>
+                                <a href="#history1">
+                                    <img class="timeline-img1" src="images/t-icon1.png" alt="timeline-icon">
+                                </a>
+                                <p class="timeline-content">Mr. Thomas founded <br>The Chocolate Drop Company</p>
+                            </div>
+                            <div class="timeline-icon2">
+                                <p class="timeline-content">New stores and <br>
+                                    online sales</p>
+                                <a href="#history1">
+                                    <img class="timeline-img2" src="images/t-icon2.png" alt="timeline-icon">
+                                </a>
+                                <p class="timeline-years">2000</p>
+                            </div>
+                            <div class=timeline-icon3>
+                                <p class="timeline-years">2010</p>
+                                <a href="#history2">
+                                    <img class="timeline-img3" src="images/t-icon1.png" alt="timeline-icon">
+                                </a>
+                                <p class="timeline-content">New flavors and<br> the creation of the vegan line</p>
+                            </div>
+                            <div class=timeline-icon4>
+                                <p class="timeline-content">Socio-environmental expansion<br> and new partners</p>
+                                <a href="#history2">
+                                    <img class="timeline-img4" src="images/t-icon2.png" alt="timeline-icon">
+                                </a>
+                                <p class="timeline-years">2020</p>
+                            </div>
+                            <div class=timeline-icon5>
+                                <p class="timeline-years">2022</p>
+                                <a href="#history3">
+                                    <img class="timeline-img5" src="images/t-icon1.png" alt="timeline-icon">
+                                </a>
+                                <p class="timeline-content">Pandemic challenges<br> and e-commerce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
                 <div class="history-picture-container">
                     <div class="first-text-history">
                         <h4>1990</h4>
-                        <p>The Chocolate Drop company is founded by a young chocolatier named Thomas. He begins making and selling artisanal chocolates in his small shop in a quaint town. <span>In 2000,</span>  The Chocolate Drop expands, and Thomas opens several more locations throughout the region. The company's reputation for quality and delicious chocolate spreads, and they start selling their products in other stores and online.</p>
+                        <p>The Chocolate Drop company is founded by a young chocolatier named Thomas. He begins
+                            making
+                            and
+                            selling artisanal chocolates in his small shop in a quaint town. <span>In 2000,</span>
+                            The
+                            Chocolate Drop expands, and Thomas opens several more locations throughout the region.
+                            The
+                            company's reputation for quality and delicious chocolate spreads, and they start selling
+                            their
+                            products in other stores and online.</p>
                     </div>
                     <img src="images/history1.png" alt="history-picture1" id="history1">
                 </div>
                 <div class="history-picture-container">
                     <div class="second-text-history">
                         <h4>2010</h4>
-                        <p>Thomas begins experimenting with new flavors and ingredients, including exotic spices and fruits. They also launch a line of dairy-free and vegan chocolates, which quickly become popular with health-conscious customers. <span>In 2020,</span> the company continues to grow and innovate, introducing sustainable and ethically sourced chocolate. They partner with cocoa farmers and invest in fair trade practices to ensure that their products are not only delicious, but also responsible and environmentally friendly. </p>
+                        <p>Thomas begins experimenting with new flavors and ingredients, including exotic spices and
+                            fruits.
+                            They also launch a line of dairy-free and vegan chocolates, which quickly become popular
+                            with
+                            health-conscious customers. <span>In 2020,</span> the company continues to grow and
+                            innovate,
+                            introducing sustainable and ethically sourced chocolate. They partner with cocoa farmers
+                            and
+                            invest in fair trade practices to ensure that their products are not only delicious, but
+                            also
+                            responsible and environmentally friendly. </p>
                     </div>
                     <img src="images/history2.png" alt="history-picture2" id="history2">
                 </div>
                 <div class="history-picture-container">
                     <div class="third-text-history">
                         <h4>2022</h4>
-                        <p>In response to the pandemic, The Chocolate Drop pivots to e-commerce and delivery, allowing customers to order their chocolates online and have them shipped directly to their homes. They also create special "quarantine" chocolate collections to help people get through difficult times.</p>
+                        <p>In response to the pandemic, The Chocolate Drop pivots to e-commerce and delivery,
+                            allowing
+                            customers to order their chocolates online and have them shipped directly to their
+                            homes.
+                            They
+                            also create special "quarantine" chocolate collections to help people get through
+                            difficult
+                            times.</p>
                     </div>
                     <div class="fourth-text-history">
-                        <p>We continue to thrive, with new stores and products launching every year. We remain committed to sustainability and ethical practices, and we are recognized as one of the most respected and innovative chocolate companies in the world.</p>
+                        <p>We continue to thrive, with new stores and products launching every year. We remain
+                            committed
+                            to
+                            sustainability and ethical practices, and we are recognized as one of the most respected
+                            and
+                            innovative chocolate companies in the world.</p>
                     </div>
                     <img src="images/history3.png" alt="history-picture3" id="history3">
                 </div>
-        </section>
-	</main>
-	<footer>
+            </section>
+    </main>
+
+    <footer>
         <div class="footer-container">
-            <div class="footer-left">
+            <div class="footer-details">
                 <img class="logo-footer" src="images/logo.png" alt="logo">
+                <ul class="footer-nav-list">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+                <img class="award-logo" src="images/award-logo.png" alt="award logo">
             </div>
-            <ul class="footer-nav-list">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#products">PRODUCTS</a></li>
-                <li><a href="#about">ABOUT US</a></li>
-                <li><a href="#contact">CONTACT US</a></li>
-            </ul>
-            <img class="award-logo" src="images/award-logo.png" alt="award logo">
-            <div class="footer-right">
-                <form action="">
-                    <div class="form-container">
-                        <p>Join to receive our promotions, features and more!</p>
-                        <input class="form-box" type="text" placeholder="Email Address" name="mail" required>
-                        <input type="submit" value="Join">
-                        <br>
+            <!-- <div class="footer-form"> -->
+            <form action="" class="footer-form" id="contact">
+                <div class="form-container">
+                    <p>Join to receive our promotions, features and more!</p>
+                    <input class="form-box" type="text" placeholder="Email Address" name="mail" required>
+                    <input type="submit" value="Join">
+                    <br>
+                    <div class="network-icons-container">
                         <a href="#"><img class="network-icons1" src="images/network-icon1.png" alt="network icon"></a>
                         <a href="#"><img class="network-icons" src="images/network-icon2.png" alt="network icon"></a>
                         <a href="#"><img class="network-icons" src="images/network-icon3.png" alt="network icon"></a>
                         <a href="#"><img class="network-icons" src="images/network-icon4.png" alt="network icon"></a>
                         <a href="#"><img class="network-icons" src="images/network-icon5.png" alt="network icon"></a>
                     </div>
-                </form>
-            </div>
+                </div>
+            </form>
+            <!-- </div> -->
         </div>
         <p>&copy; Chocolate Company 2023. Fictional page for academic purpose. All rights reserved.</p>
-	</footer>
+    </footer>
+
+
+
+
+    <script type="text/javascript" src="javascript/index.js"></script>
+
+
 </body>
+
 </html>
