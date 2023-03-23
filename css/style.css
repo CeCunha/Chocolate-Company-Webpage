@@ -1,18 +1,22 @@
+/* Set padding bottom to 0 for the html element */
 html {
 	padding-bottom: 0;
 }
 
+/* Set font family to Arial or sans-serif, and reset margin and padding for body */
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
+/* Set inline display and margin for list items */
 li {
 	display: inline;
 	margin: 10px;
 }
 
+/* Remove underline for links, set font family and size, and set color and text shadow */
 a {
 	text-decoration: none;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -21,6 +25,7 @@ a {
 	text-shadow: 5px 5px 5px #462300;
 }
 
+/* Set absolute position, top and width for navigation menu */
 .nav-menu {
 	position: absolute;
 	top: 3%;
@@ -28,11 +33,13 @@ a {
 	display: inline;
 }
 
+/* Set width and height to 100% for video element */
 video {
 	width: 100%;
 	height: 100%;
 }
 
+/* Set position, width, margin and top for logo */
 .logo {
 	position: absolute;
 	width: 10%;
@@ -40,20 +47,24 @@ video {
 	margin-top: 2%;
 }
 
+/* Set background gradient and padding bottom for slogan */
 .slogan {
 	background: linear-gradient(to bottom, #542f12 32%, #a4672b 100%);
 	padding-bottom: 50px;
 }
 
+/* Separator */
 .separator-line {
 	width: 100%;
 	margin-bottom: 3rem;
 }
 
+/* Set margin top for main section */
 main {
 	margin-top: -2%;
 }
 
+/* Set font family, size, color, text align, font weight, letter spacing, and text shadow for h1 */
 h1 {
 	font-family: 'Alex Brush', cursive;
 	font-size: 5vw;
@@ -64,6 +75,7 @@ h1 {
 	text-shadow: 5px 5px 3px #462300;
 }
 
+/* Set font family, size, text align, width, margin, and color for introduction text */
 .introduction-text {
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	font-size: 2vw;
@@ -75,40 +87,45 @@ h1 {
 	color: rgb(255, 207, 149);
 }
 
+/* Set width to 100% for product section */
 .product {
 	width: 100%;
 	padding-bottom: -10%;
 }
 
+/* Set flex display for products container */
 .products-container {
 	display: flex;
 }
 
+/* Set width to 50% for product-1 and product-2 */
 .product-1,
 .product-2 {
 	width: 50%;
 }
 
+/* Description Container */
 .description-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	/* padding: 2rem; */
 	background-color: rgba(255, 228, 196, 0.237);
 }
 
+/* Description */
 .description {
-	/* background-color: rgba(255, 228, 196, 0.237); */
 	width: 100%;
 }
 
+/* Description Text */
 .description span {
 	font-family: 'Alex Brush', cursive;
 	color: rgb(140, 65, 0);
 	font-size: 3vw;
 }
 
+/* Description Heading */
 .description-container h3 {
 	text-align: center;
 	color: #462300;
@@ -117,6 +134,7 @@ h1 {
 	width: 100%;
 }
 
+/* Heading 2 */
 h2 {
 	position: absolute;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -126,6 +144,7 @@ h2 {
 	align-items: center;
 }
 
+/* Product Description */
 .product-description {
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	text-align: justify;
@@ -136,12 +155,13 @@ h2 {
 	height: 150px;
 }
 
+/* Details Container */
 .details-container {
 	display: flex;
 }
 
+/* Details */
 .details {
-	/* background-color: rgba(255, 228, 196, 0.237); */
 	margin: auto;
 	text-align: center;
 	width: 50%;
@@ -149,23 +169,27 @@ h2 {
 	padding-bottom: 50px;
 }
 
+/* Details Value */
 .details-value {
 	font-size: 2vw;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
 	color: #462300;
 }
 
+/* Details Icon */
 .details-icon {
 	width: 100%;
 	margin-bottom: 20px;
 }
 
+/* Details Icon Hover */
 .details-icon:hover {
 	filter: grayscale(100%);
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
 }
 
+/* Code to shake the icons */
 @keyframes shake {
 	0% {
 		transform: translate(1px, 1px) rotate(0deg);
@@ -212,6 +236,7 @@ h2 {
 	}
 }
 
+/* Button style */
 button {
 	border-color: #462300;
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -225,12 +250,13 @@ button {
 	background-color: #46230000;
 }
 
+/* Button hover effect */
 button:hover {
 	color: white;
-	border: #a4672b;
 	background-color: #c0874e;
 }
 
+/* Hero section container */
 .container {
 	width: 100%;
 	position: relative;
@@ -242,6 +268,7 @@ button:hover {
 	-webkit-text-fill-color: transparent;
 }
 
+/* Introduction text */
 .container:after {
 	content: 'Every drop ... is a  Waterfall of flavour!';
 	position: absolute;
@@ -262,6 +289,7 @@ button:hover {
 	animation: shine 8s infinite;
 }
 
+/* Introduction text shine effect */
 @keyframes shine {
 	0% {
 		background-position: -100%;
@@ -272,6 +300,7 @@ button:hover {
 	}
 }
 
+/* History styling */
 .history-picture-container {
 	position: relative;
 }
@@ -348,6 +377,7 @@ p span {
 	position: relative;
 }
 
+/* Timeline styling */
 .timeline {
 	padding-top: 9%;
 }
@@ -420,6 +450,8 @@ h5 {
 h5 span {
 	font-family: 'Alex Brush', cursive;
 }
+
+/* Footer styling */
 
 .footer-container {
 	display: flex;
@@ -523,8 +555,8 @@ footer p {
 	display: none;
 }
 
+/* Make the page responsive to resize depending on the size of the viewport */
 @media screen and (max-width: 480px) {
-	/* change logo to left */
 	.logo {
 		width: 20%;
 		margin-left: 0;
@@ -533,20 +565,7 @@ footer p {
 		left: 4%;
 	}
 
-	/* .nav-menu {
-		display: none;
-		position: absolute;
-		backdrop-filter: blur(2px);
-		padding: 0;
-		top: 0;
-		left: 30%;
-		border-radius: 15px;
-		z-index: 1;
-		transition: all 1s;
-	} */
-
 	.nav-menu {
-		/* display: none; */
 		opacity: 0;
 		height: 0;
 		overflow: hidden;
@@ -570,15 +589,7 @@ footer p {
 		top: 2%;
 		left: 90%;
 		width: fit-content;
-		/* display: inline; */
 	}
-
-	/* #main-menu {
-		display: flex;
-		flex-direction: column;
-		gap: 1.5rem;
-		padding-left: 1.5rem;
-	} */
 
 	#main-menu {
 		display: flex;
